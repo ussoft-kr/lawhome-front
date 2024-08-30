@@ -1,3 +1,15 @@
 {
-  "extends": "../.nuxt/tsconfig.server.json"
+  "extends": "../.nuxt/tsconfig.server.json",
+  "compilerOptions": {
+    "target" : "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "nuxt"]
+  },
+  "include": ["api/**/*.ts"],
 }
