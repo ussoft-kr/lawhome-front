@@ -3,7 +3,9 @@
 </script>
 
 <template>
-  <v-container>123123aaa</v-container>
+  <v-container>
+    <h1 class="text-center">Nuxt.js + Vuetify Welcome</h1>
+  </v-container>
 </template>
 
 <style scoped>
