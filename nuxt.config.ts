@@ -20,5 +20,14 @@ export default defineNuxtConfig({
         transformAssetUrls,
       },
     },
+    resolve : {
+      alias: {
+        '@styles' : '/assets/styles',
+        '@pages' : '/pages/',
+        '@components' : '/components/',
+        '@layout' : '/layouts/',
+        '@api' : '/server/api',
+      },
+    },
   },
 })
